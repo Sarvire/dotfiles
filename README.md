@@ -12,9 +12,3 @@
 - Fetch: Fastfetch
 - Theme: Dark Red / Death Note
 
-## Instalar
-\`\`\`bash
-git clone https://github.com/sarvire/dotfiles
-cd dotfiles
-cp -r * ~/.config/
-\`\`\`
