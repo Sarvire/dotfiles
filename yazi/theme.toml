@@ -1,0 +1,26 @@
+[flavor]
+use = "dark-red"
+
+[manager]
+cwd = { fg = "#cc2222", bold = true }
+
+# Itens selecionados
+marker_selected = { fg = "#0d0808", bg = "#cc2222" }
+marker_copied   = { fg = "#0d0808", bg = "#e8d0d0" }
+marker_cut      = { fg = "#0d0808", bg = "#ff3333" }
+
+# Item ativo
+hovered = { fg = "#ff3333", bold = true }
+
+# Bordas
+border_symbol = "│"
+border_style = { fg = "#3d1515" }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#3d1515", bg = "#3d1515" }
+
+mode_normal = { fg = "#0d0808", bg = "#cc2222", bold = true }
+mode_select = { fg = "#0d0808", bg = "#ff3333", bold = true }
+mode_unset  = { fg = "#0d0808", bg = "#6b3030", bold = true }

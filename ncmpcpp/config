@@ -1,0 +1,37 @@
+mpd_music_dir = ~/Music
+ncmpcpp_directory = ~/.config/ncmpcpp
+
+## Aparência
+colors_enabled = "yes"
+
+main_window_color = "red"
+header_window_color = "default"
+volume_color = "red"
+state_line_color = "black"
+state_flags_color = "red"
+
+progressbar_color = "black:b"
+progressbar_elapsed_color = "red:b"
+
+current_item_prefix = "$(red)$r"
+current_item_suffix = "$/r$(end)"
+
+song_status_format = "{(%a) }{%t}{ - %b}"
+song_columns_list_format = "(7f)[red]{l} (25)[white]{t|f:Title} (20)[red]{a} (20)[white]{b}"
+
+## Layout
+user_interface = "alternative"
+display_bitrate = "yes"
+playlist_display_mode = "columns"
+browser_display_mode = "columns"
+
+## Visualizer (precisa de cava ou fifo)
+visualizer_data_source = "/tmp/mpd.fifo"
+visualizer_output_name = "Visualizer feed"
+visualizer_in_stereo = "yes"
+visualizer_type = "spectrum"
+visualizer_look = "●▮"
+visualizer_color = "red, white, black"
+
+## Atalhos básicos
+mouse_support = "yes"
