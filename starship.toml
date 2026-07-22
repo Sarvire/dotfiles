@@ -1,0 +1,39 @@
+format = """
+[╭─](red)$os$username$hostname$directory$git_branch$git_status
+[╰─](red)$character"""
+
+[os]
+disabled = false
+style = "bold red"
+
+[username]
+style_user = "bold red"
+style_root = "bold red"
+format = "[$user]($style)[@](red)"
+show_always = true
+
+[hostname]
+ssh_only = false
+format = "[$hostname](bold red) "
+disabled = false
+
+[directory]
+style = "bold white"
+format = "[$path]($style) "
+truncation_length = 3
+
+[git_branch]
+symbol = " "
+style = "bold red"
+format = "[on $symbol$branch]($style) "
+disabled = true
+ignore_branches = ["master", "main"]
+
+[git_status]
+style = "red"
+format = "[$all_status$ahead_behind]($style) "
+disabled = true
+
+[character]
+success_symbol = "[❯](bold red)"
+error_symbol = "[❯](bold red)"
